@@ -14,6 +14,8 @@
 		6450EA1928277C61000F5C98 /* HonkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA1828277C61000F5C98 /* HonkTests.swift */; };
 		6450EA2328277C61000F5C98 /* HonkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA2228277C61000F5C98 /* HonkUITests.swift */; };
 		6450EA2528277C61000F5C98 /* HonkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA2428277C61000F5C98 /* HonkUITestsLaunchTests.swift */; };
+		6450EA3228277FB4000F5C98 /* honk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6450EA3128277FB4000F5C98 /* honk.mp3 */; };
+		6450EA3428278382000F5C98 /* soundplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA3328278382000F5C98 /* soundplayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6450EA1E28277C61000F5C98 /* HonkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HonkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6450EA2228277C61000F5C98 /* HonkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonkUITests.swift; sourceTree = "<group>"; };
 		6450EA2428277C61000F5C98 /* HonkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6450EA3128277FB4000F5C98 /* honk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = honk.mp3; sourceTree = "<group>"; };
+		6450EA3328278382000F5C98 /* soundplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundplayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				6450EA0728277C5D000F5C98 /* HonkApp.swift */,
+				6450EA3128277FB4000F5C98 /* honk.mp3 */,
 				6450EA0928277C5D000F5C98 /* ContentView.swift */,
+				6450EA3328278382000F5C98 /* soundplayer.swift */,
 				6450EA0B28277C60000F5C98 /* Assets.xcassets */,
 				6450EA0D28277C60000F5C98 /* Preview Content */,
 			);
@@ -233,6 +239,7 @@
 			files = (
 				6450EA0F28277C60000F5C98 /* Preview Assets.xcassets in Resources */,
 				6450EA0C28277C60000F5C98 /* Assets.xcassets in Resources */,
+				6450EA3228277FB4000F5C98 /* honk.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			files = (
 				6450EA0A28277C5D000F5C98 /* ContentView.swift in Sources */,
 				6450EA0828277C5D000F5C98 /* HonkApp.swift in Sources */,
+				6450EA3428278382000F5C98 /* soundplayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
