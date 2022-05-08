@@ -16,6 +16,10 @@
 		6450EA2528277C61000F5C98 /* HonkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA2428277C61000F5C98 /* HonkUITestsLaunchTests.swift */; };
 		6450EA3228277FB4000F5C98 /* honk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6450EA3128277FB4000F5C98 /* honk.mp3 */; };
 		6450EA3428278382000F5C98 /* soundplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA3328278382000F5C98 /* soundplayer.swift */; };
+		64E6439C28287B4800F9F194 /* soundplayer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6439B28287B4800F9F194 /* soundplayer2.swift */; };
+		64E6439E28287D3800F9F194 /* door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64E6439D28287D3800F9F194 /* door.mp3 */; };
+		64E643A02828820800F9F194 /* din1451alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E6439F2828820800F9F194 /* din1451alt.ttf */; };
+		64E643A22828840100F9F194 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E643A12828840100F9F194 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		6450EA2428277C61000F5C98 /* HonkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6450EA3128277FB4000F5C98 /* honk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = honk.mp3; sourceTree = "<group>"; };
 		6450EA3328278382000F5C98 /* soundplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundplayer.swift; sourceTree = "<group>"; };
+		64E6439B28287B4800F9F194 /* soundplayer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundplayer2.swift; sourceTree = "<group>"; };
+		64E6439D28287D3800F9F194 /* door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = door.mp3; sourceTree = "<group>"; };
+		64E6439F2828820800F9F194 /* din1451alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = din1451alt.ttf; sourceTree = "<group>"; };
+		64E643A12828840100F9F194 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				6450EA0728277C5D000F5C98 /* HonkApp.swift */,
+				64E6439D28287D3800F9F194 /* door.mp3 */,
 				6450EA3128277FB4000F5C98 /* honk.mp3 */,
 				6450EA0928277C5D000F5C98 /* ContentView.swift */,
+				64E6439F2828820800F9F194 /* din1451alt.ttf */,
+				64E643A12828840100F9F194 /* SwiftUIView.swift */,
 				6450EA3328278382000F5C98 /* soundplayer.swift */,
+				64E6439B28287B4800F9F194 /* soundplayer2.swift */,
 				6450EA0B28277C60000F5C98 /* Assets.xcassets */,
 				6450EA0D28277C60000F5C98 /* Preview Content */,
 			);
@@ -238,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6450EA0F28277C60000F5C98 /* Preview Assets.xcassets in Resources */,
+				64E643A02828820800F9F194 /* din1451alt.ttf in Resources */,
 				6450EA0C28277C60000F5C98 /* Assets.xcassets in Resources */,
+				64E6439E28287D3800F9F194 /* door.mp3 in Resources */,
 				6450EA3228277FB4000F5C98 /* honk.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6450EA0A28277C5D000F5C98 /* ContentView.swift in Sources */,
+				64E6439C28287B4800F9F194 /* soundplayer2.swift in Sources */,
 				6450EA0828277C5D000F5C98 /* HonkApp.swift in Sources */,
 				6450EA3428278382000F5C98 /* soundplayer.swift in Sources */,
+				64E643A22828840100F9F194 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
