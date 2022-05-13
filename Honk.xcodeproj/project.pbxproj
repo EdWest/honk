@@ -20,6 +20,7 @@
 		64E6439E28287D3800F9F194 /* door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64E6439D28287D3800F9F194 /* door.mp3 */; };
 		64E643A02828820800F9F194 /* din1451alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E6439F2828820800F9F194 /* din1451alt.ttf */; };
 		64E643A22828840100F9F194 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E643A12828840100F9F194 /* SwiftUIView.swift */; };
+		64E643A4282DD5F200F9F194 /* mojave day.png in Resources */ = {isa = PBXBuildFile; fileRef = 64E643A3282DD5F200F9F194 /* mojave day.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		64E6439D28287D3800F9F194 /* door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = door.mp3; sourceTree = "<group>"; };
 		64E6439F2828820800F9F194 /* din1451alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = din1451alt.ttf; sourceTree = "<group>"; };
 		64E643A12828840100F9F194 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		64E643A3282DD5F200F9F194 /* mojave day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mojave day.png"; sourceTree = "<group>"; };
+		64E643A5282E16CE00F9F194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 		6450EA0628277C5D000F5C98 /* Honk */ = {
 			isa = PBXGroup;
 			children = (
+				64E643A5282E16CE00F9F194 /* Info.plist */,
+				64E643A3282DD5F200F9F194 /* mojave day.png */,
 				6450EA0728277C5D000F5C98 /* HonkApp.swift */,
 				64E6439D28287D3800F9F194 /* door.mp3 */,
 				6450EA3128277FB4000F5C98 /* honk.mp3 */,
@@ -254,6 +259,7 @@
 				6450EA0C28277C60000F5C98 /* Assets.xcassets in Resources */,
 				64E6439E28287D3800F9F194 /* door.mp3 in Resources */,
 				6450EA3228277FB4000F5C98 /* honk.mp3 in Resources */,
+				64E643A4282DD5F200F9F194 /* mojave day.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +450,7 @@
 				DEVELOPMENT_TEAM = TRDA655WL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -473,6 +480,7 @@
 				DEVELOPMENT_TEAM = TRDA655WL3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honk/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
