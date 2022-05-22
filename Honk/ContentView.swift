@@ -12,33 +12,29 @@ struct ContentView: View {
     @StateObject var soundplayer:Soundplayer = Soundplayer()
     var body: some View {
         GeometryReader{reader in
-            Button("Honk1234", action:soundplayer.playSound)
+            Button("Honk", action:soundplayer.playSound)
                 .frame(width: reader.size.width * 0.75)
                 .padding()
                 .background(Color.gray)
                 .foregroundColor(Color.black) //Button text color is pea green now -- Ed 5/12/22
                 .position(x: reader.size.width / 2, y: reader.size.height / 2)
+                .font(Font.custom("Alte DIN 1451 Mittelschrift", size: 25))
 
             VStack(spacing:20) {
                 Text("This is Ed's Honk app")
-                    .font(.largeTitle)
+                    .font(Font.custom("Alte DIN 1451 Mittelschrift", size: 35))
                     .foregroundColor(Color.black)
                     Text("Press the button below to hear a Honk")
                     .foregroundColor(Color.gray)
-                    //.font(Font.custom("din1451alt", size: 18))
-                    Text("When pressed, a 12345 will sound")
+                    Text("When pressed, a honk will sound")
                     .foregroundColor(Color.gray)
-                    //.font(Font.custom("din1451alt", size: 18))
                     
             }
-            .font(Font.custom("din1451alt", size: 18))
+            .font(Font.custom("Alte DIN 1451 Mittelschrift", size: 20))
             .position(x: reader.size.width / 2, y: reader.size.height / 3)
         }
         .background(Image("background").resizable())
         
-
-        
-
 //
 //
 //        @StateObject var soundplayer:Soundplayer = Soundplayer2()  // This was supposed to be a second button  -- Ed 5/12/22
@@ -52,8 +48,6 @@ struct ContentView: View {
 //                        .position(x: reader.size.width / 3, y: reader.size.height / 3)
  
         }
-
-    
 
 }
 
