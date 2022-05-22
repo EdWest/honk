@@ -1,0 +1,18 @@
+{
+  "name": "12",
+  "version": "1.0.2",
+  "main": "1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["求和"],
+  "author": "gurand8",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template": "^4.12.1"
+  },
+  "dependencies": {
+    "art-template": "^4.12.1"
+  },
+  "description": "玩"
+}
