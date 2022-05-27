@@ -16,6 +16,9 @@
 		6450EA2528277C61000F5C98 /* HonkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA2428277C61000F5C98 /* HonkUITestsLaunchTests.swift */; };
 		6450EA3228277FB4000F5C98 /* honk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6450EA3128277FB4000F5C98 /* honk.mp3 */; };
 		6450EA3428278382000F5C98 /* soundplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6450EA3328278382000F5C98 /* soundplayer.swift */; };
+		6474985E284082AB000743D8 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474985D284082AB000743D8 /* Navigator.swift */; };
+		64749860284096DA000743D8 /* locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474985F284096DA000743D8 /* locationManager.swift */; };
+		6474986228409741000743D8 /* LocationFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6474986128409741000743D8 /* LocationFinder.swift */; };
 		64E6439C28287B4800F9F194 /* soundplayer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E6439B28287B4800F9F194 /* soundplayer2.swift */; };
 		64E6439E28287D3800F9F194 /* door.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64E6439D28287D3800F9F194 /* door.mp3 */; };
 		64E643A02828820800F9F194 /* din1451alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E6439F2828820800F9F194 /* din1451alt.ttf */; };
@@ -52,6 +55,9 @@
 		6450EA2428277C61000F5C98 /* HonkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6450EA3128277FB4000F5C98 /* honk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = honk.mp3; sourceTree = "<group>"; };
 		6450EA3328278382000F5C98 /* soundplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundplayer.swift; sourceTree = "<group>"; };
+		6474985D284082AB000743D8 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		6474985F284096DA000743D8 /* locationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationManager.swift; sourceTree = "<group>"; };
+		6474986128409741000743D8 /* LocationFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFinder.swift; sourceTree = "<group>"; };
 		64E6439B28287B4800F9F194 /* soundplayer2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundplayer2.swift; sourceTree = "<group>"; };
 		64E6439D28287D3800F9F194 /* door.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = door.mp3; sourceTree = "<group>"; };
 		64E6439F2828820800F9F194 /* din1451alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = din1451alt.ttf; sourceTree = "<group>"; };
@@ -112,6 +118,9 @@
 				64E6439D28287D3800F9F194 /* door.mp3 */,
 				6450EA3128277FB4000F5C98 /* honk.mp3 */,
 				6450EA0928277C5D000F5C98 /* ContentView.swift */,
+				6474985D284082AB000743D8 /* Navigator.swift */,
+				6474986128409741000743D8 /* LocationFinder.swift */,
+				6474985F284096DA000743D8 /* locationManager.swift */,
 				64E6439F2828820800F9F194 /* din1451alt.ttf */,
 				64E643A12828840100F9F194 /* SwiftUIView.swift */,
 				6450EA3328278382000F5C98 /* soundplayer.swift */,
@@ -280,11 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6474986228409741000743D8 /* LocationFinder.swift in Sources */,
 				6450EA0A28277C5D000F5C98 /* ContentView.swift in Sources */,
 				64E6439C28287B4800F9F194 /* soundplayer2.swift in Sources */,
 				6450EA0828277C5D000F5C98 /* HonkApp.swift in Sources */,
 				6450EA3428278382000F5C98 /* soundplayer.swift in Sources */,
+				64749860284096DA000743D8 /* locationManager.swift in Sources */,
 				64E643A22828840100F9F194 /* SwiftUIView.swift in Sources */,
+				6474985E284082AB000743D8 /* Navigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
