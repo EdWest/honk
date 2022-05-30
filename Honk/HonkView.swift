@@ -1,20 +1,20 @@
 //
-//  SwiftUIView.swift
+//  HonkView.swift
 //  Honk
 //
-//  Created by Ed West on 5/8/22.
+//  Created by Ed West on 5/29/22.
 //
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct HonkView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct HonkView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        HonkView()
     }
 }
